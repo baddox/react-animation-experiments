@@ -1,6 +1,7 @@
 .Button {
   &__icon {
-    font-size: 20px;
+    display: inline-block;
+    font-size: 18px;
 
     &--selected-false {
       color: grey;
@@ -8,6 +9,7 @@
 
     &--selected-true {
       color: red;
+      // transform: scale(1.5);
     }
   }
 }
